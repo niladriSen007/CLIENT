@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  scroll-behavior: smooth
+
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-image: linear-gradient(to bottom,#49035b,#1763a1);
+  border-radius: 50px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-01
+{
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  top: 0;
+  background: #339af0;
+  filter: blur(175px);
+}
+
+
+.gradient-02
+{
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  top: 0;
+  right: 0;
+  background: #ca00ff;
+  filter: blur(175px);
+}
